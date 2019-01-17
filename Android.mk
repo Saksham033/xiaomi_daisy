@@ -25,6 +25,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sakura)
+ifeq ($(TARGET_DEVICE),daisy)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

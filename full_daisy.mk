@@ -18,13 +18,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from sakura device
-$(call inherit-product, device/xiaomi/sakura/device.mk)
+# Inherit from daisy device
+$(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := Xiaomi
-PRODUCT_DEVICE := sakura
-PRODUCT_NAME := full_sakura
+PRODUCT_DEVICE := daisy
+PRODUCT_NAME := full_daisy
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 6 Pro
+PRODUCT_MODEL := Mi A2 Lite
 PRODUCT_MANUFACTURER := Xiaomi

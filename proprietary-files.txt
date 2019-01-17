@@ -619,11 +619,6 @@ vendor/etc/camera/sakura_s5k5e8_sunny_chromatix_india.xml
 # Consumer IR - from sakura
 vendor/lib64/hw/consumerir.default.so
 
-# Display Calibration - from sakura
-vendor/etc/qdcm_calib_data_hx8399c_fhdplus_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_ili7807_fhdplus_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_otm1911_fhdplus_video_mode_dsi_panel.xml
-
 # Fingerprint firmware
 etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
 

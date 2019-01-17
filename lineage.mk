@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/sakura/full_sakura.mk)
+$(call inherit-product, device/xiaomi/daisy/full_daisy.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_sakura
+PRODUCT_NAME := lineage_daisy
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sakura-user 8.1.0 OPM1.171019.019 V10.0.5.0.ODICNFH release-keys"
+    PRIVATE_BUILD_DESC="daisy-user 9 PKQ1.180917.001 V10.0.1.0.PDLMIFJ release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := xiaomi/sakura/sakura:8.1.0/OPM1.171019.019/V10.0.5.0.ODICNFH:user/release-keys
+BUILD_FINGERPRINT := xiaomi/daisy/daisy_sprout:9/PKQ1.180917.001/V10.0.1.0.PDLMIFJ:user/release-keys
